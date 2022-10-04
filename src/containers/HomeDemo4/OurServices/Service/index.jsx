@@ -6,7 +6,7 @@ const Service = ({ img, title, description }) => {
         <div className="service_icon">
           <img draggable="false" src={img} alt="" />
         </div>
-        <h6>{title}</h6>
+        <h6 className="service-title">{title}</h6>
         <p>{description}</p>
       </div>
     </div>

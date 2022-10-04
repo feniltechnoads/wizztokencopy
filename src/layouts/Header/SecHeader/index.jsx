@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
 import Aos from "aos";
 
 const SecHeader = ({ HeaderLogo, HeaderLogo2, dropdownItem }) => {
@@ -73,12 +73,22 @@ const SecHeader = ({ HeaderLogo, HeaderLogo2, dropdownItem }) => {
                 Blog
               </a>
             </li>
-            <li className="lh-55px">
-              <a href="https://app.wizzcoin.io" target="_blank" className="btn login-btn ml-50">
-                {/* <span className="test" data-hover="Coming Soon.."> */}
-                  App
-                {/* </span> */}
-              </a>
+            <li className="ml-3 nav">
+              <div className="d-flex justify-content-center align-items-center">
+                <div className="bot-left1 rounded-pill">
+                  <a
+                    href="https://app.wizzcoin.io"
+                    target="_blank"
+                    className="btn golden px-4 py-1"
+                  >
+                    {/* <span className="test"> */}
+                    {/* <span className="golden"> */}
+                    <span>App</span>
+                    {/* </span> */}
+                    {/* </span> */}
+                  </a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>

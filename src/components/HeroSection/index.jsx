@@ -34,11 +34,18 @@ const SecHeroSection = ({
                 <p className="w-text fadeInUp mb-4" data-wow-delay="0.3s"><span className="d-block">{join}</span></p>
                 <p className="w-text fadeInUp mb-4" data-wow-delay="0.3s">{para}</p>
                 <div className="dream-btn-group fadeInUp pb-4" data-wow-delay="0.4s">
-                  <a href="https://app.wizzcoin.io" target="_blank" className="btn more-btn mr-3 text-light">
-                    {/* <span className="test" data-hover="Coming Soon.."> */}
-                      {link1}
-                    {/* </span> */}
-                  </a>
+                  {/* <a href="https://app.wizzcoin.io" target="_blank" className="btn more-btn mr-3 text-light"> */}
+                  <div className="d-flex justify-content-start">
+                    <div className="bot-left1 rounded-pill text-bold">
+                      <a href="https://app.wizzcoin.io" target="_blank" className="btn px-4 text-light golden">
+                        {/* <span className="test" data-hover="Coming Soon.."> */}
+                        <span>
+                          {link1}
+                        </span>
+                        {/* </span> */}
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

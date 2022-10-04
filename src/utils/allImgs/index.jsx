@@ -195,7 +195,6 @@ import HomeDemo4IconsH22 from "../../assets/img/icons/h22.png"
 import HomeDemo4IconsH3 from "../../assets/img/icons/h3.png"
 import HomeDemo4IconsH33 from "../../assets/img/icons/h33.png"
 
-// import HomeDemo4Feature1 from "../../assets/img/core-img/feature-1.png"
 import HomeDemo4SmallCar from "../../assets/img/core-img/small-car.png"
 
 import HomeDemo4Platform1 from "../../assets/img/core-img/platform1.png"
@@ -256,6 +255,7 @@ import HomeDemo4Feature2 from "../../assets/img/features/feature-2.svg"
 import HomeDemo4Feature3 from "../../assets/img/features/feature-3.svg"
 import HomeDemo4Feature4 from "../../assets/img/features/feature-4.svg"
 import HomeDemo4Feature5 from "../../assets/img/features/feature-5.svg"
+import HomeDemo4Feature6 from "../../assets/img/features/feature-6.svg"
 import Stable from "../../assets/img/features/stable.svg"
 import StableBlack from "../../assets/img/features/stable-black.svg"
 import Simple from "../../assets/img/features/Simple.svg"
@@ -611,6 +611,7 @@ export {
 	HomeDemo4Feature3,
 	HomeDemo4Feature4,
 	HomeDemo4Feature5,
+	HomeDemo4Feature6,
 	Stable,
 	Simple,
 	Everyone,

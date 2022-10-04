@@ -26,6 +26,7 @@ import {
     HomeDemo4Feature3,
     HomeDemo4Feature4,
     HomeDemo4Feature5,
+    HomeDemo4Feature6,
 
 } from '../../../utils/allImgs'
 
@@ -73,11 +74,15 @@ export const Services = [
         description: "One of our core concepts is to build a sustainable world with ultra-low emission, WIZZ token is stepping in to build a sustainable world with strong mission and vision for the future generations."
     },
     {
+        img:HomeDemo4Feature6,
+        title:"Metaverse",
+        description: "WIZZ Eco system are planning to develop in to the Metaverse which is the futurism and science fiction, a hypothetical iteration of the Internet as a single, universal and immersive virtual world that is facilitated by the use of virtual reality (VR)."
+    },
+    {
         img:HomeDemo4Feature5,
         title:"DeFi",
         description: "Decentralized Finance (DeFi) takes the decentralized concept of blockchain and applies it to the world of finance. WIZZ DeFi concept is to born to influence to the millions of people in real life."
-    },
-    
+    }, 
 ]
 
 

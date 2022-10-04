@@ -119,10 +119,10 @@ const HomeDemo4Container = () => {
             ClassSpanTitle="gradient-text blue"
         /> */}
         {/* <Subscribe /> */}
-        <OurBlog
+        {/* <OurBlog
             data={OurBlogInfo}
             ClassSpanTitle="gradient-text"
-        />
+        /> */}
         <FooterPages
             ClassSpanTitle="gradient-text"
         />

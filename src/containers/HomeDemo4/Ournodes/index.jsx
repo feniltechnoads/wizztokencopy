@@ -1,3 +1,4 @@
+import { react, useState } from "react";
 import {
   HomeDemo4LiteNode,
   HomeDemo4SmartNode,
@@ -6,8 +7,7 @@ import {
   HomeDemo4SmartNode1,
   HomeDemo4PowerNode1,
 } from "../../../utils/allImgs";
-import { FiChevronDown, FiChevronUp } from "react-icons/fi";
-import { react, useState } from "react";
+import {HiOutlinePlusCircle, HiOutlineMinusCircle} from "react-icons/hi"
 import SectionHeading from "../../../components/SectionHeading";
 
 const Ournodes = () => {
@@ -51,7 +51,7 @@ const Ournodes = () => {
                     <div className="accordion-item">
                       <a className="accordion-header" id="headingOne">
                         <h5
-                          className="accordion-button d-flex justify-content-center px-3 py-2 bg-white text-dark node-btn text-center"
+                          className="accordion-button d-flex justify-content-between align-items-center node-btn px-3 py-2 text-light mb-0 lh-sm text-center"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseOne"
@@ -60,17 +60,16 @@ const Ournodes = () => {
                           onClick={() => setopen(!open)}
                         >
                           Smart Node Features
-
                           {open ? (
-                            <FiChevronUp className="arrows upperArrow" />
-                          ) : (
-                            <FiChevronDown className="arrows downArrow" />
-                          )}
+                              <HiOutlineMinusCircle className="arrows upperArrow" />
+                            ) : (
+                              <HiOutlinePlusCircle className="arrows downArrow" />
+                            )}
                         </h5>
                       </a>
                       <div
                         id="collapseOne"
-                        className="accordion-collapse collapse bg-secondary text-light"
+                        className="accordion-collapse collapse bg-secondary text-light mt-3"
                         aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample"
                       >
@@ -104,8 +103,8 @@ const Ournodes = () => {
               </div>
             </div>
             <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center">
-              <div className="image-box image-box1 hover-switch">
-                <img src={HomeDemo4LiteNode} alt="" className="w-0 greyscale" />
+              <div className="image-box image-box1 hover-switch margin-bottom">
+                <img src={HomeDemo4LiteNode} alt="" className="greyscale" />
                 <img src={HomeDemo4LiteNode1} className=" w-0" alt="" />
               </div>
             </div>
@@ -135,11 +134,11 @@ const Ournodes = () => {
                     </li>
                     <li>Contract Period: 7 (Seven) Years.</li>
                   </ul>
-                  <div className="accordion py-3" id="accordionExample">
+                  <div className="accordion py-3">
                     <div className="accordion-item">
                       <a className="accordion-header" id="headingTwo">
                         <h5
-                          className="accordion-button d-flex justify-content-center px-3 py-2 bg-white text-dark collapsed node-btn text-center"
+                          className="accordion-button d-flex justify-content-between lh-sm align-items-center px-3 py-2 bg-white text-light collapsed node-btn text-center"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseTwo"
@@ -149,15 +148,15 @@ const Ournodes = () => {
                         >
                           Smart Node Features
                           {opens ? (
-                            <FiChevronUp className="smartarrows upperArrow" />
+                            <HiOutlineMinusCircle className="smartarrows upperArrow" />
                           ) : (
-                            <FiChevronDown className="smartarrows downArrow" />
+                            <HiOutlinePlusCircle className="smartarrows downArrow" />
                           )}
                         </h5>
                       </a>
                       <div
                         id="collapseTwo"
-                        className="accordion-collapse collapse bg-secondary text-light"
+                        className="accordion-collapse collapse bg-secondary text-light mt-1"
                         aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample"
                       >
@@ -197,7 +196,7 @@ const Ournodes = () => {
               </div>
             </div>
             <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center order-lg-1">
-              <div className="image-box image-box2 hover-switch">
+              <div className="image-box image-box2 hover-switch margin-bottom">
                 <img src={HomeDemo4SmartNode} className="w-0" alt="" />
                 <img src={HomeDemo4SmartNode1} className="greyscale" alt="" />
               </div>
