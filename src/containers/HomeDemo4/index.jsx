@@ -59,7 +59,7 @@ const HomeDemo4Container = () => {
 
     return (
       <div>
-        <Header Title="Wizz Token" />
+        <Header Title="Wizz Coin" />
         <SecHeroSection
             ClassSec="hero-section moving section-padding"
             ClassDiv="col-12 col-lg-6 col-md-12 imgDiv"

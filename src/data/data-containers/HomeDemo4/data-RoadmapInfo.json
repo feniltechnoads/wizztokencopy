@@ -1,58 +1,54 @@
 [
-    {
-        "month":"Q1",
-        "year":"2019",
-        "title":" WIZZ started to plan to introduce DeFi Eco system",
-        "class": "date-content date-content1"
-    },
-    {
-        "month":"Q2",
-        "year":"2020",
-        "title":"Hire experts in the industry, to start develop from the screech",
-        "class": "date-content date-content2"
-    },
-    {
-        "month":"Q3",
-        "year":"2021",
-        "title":"DEVELOPMENT OF NEW UI",
-        "list1": "STARTED TO PROGRAMME AND DESIGN",
-        "list2": "DEVELOPMENTS OF NODE AND TOKENOMICS",
-        "list3": "LAUNCH OF THE WEBSITE",
-        "list4": "START TO SELL NODE",
-        "list5": "ONBOARD MARKETING TEAM",
-        "list6": "SOCIAL MEDIA MARKETING",
-        "class": "date-content date-content3"
-    },
-    {
-        "month":"Q4",
-        "year":"2022",
-        "title":"WHITEPAPER",
-        "list1": "PARTNERSHIPS",
-        "list2": "MARKETING CAMPAIGN",
-        "list3": "ON-CHAIN INTEGRATION DEVELOPMENT",
-        "list4": "DEFI EDUCATION",
-        "list5": "PURPOSE BUILT DEX",
-        "list6": "WIZZ DEFI PROTOCOL MIGRATION",
-        "list7": "SMART NODE NFT AIRDROPS",
-        "list8": "LIQUID NFT DEVELOPMENT",
-        "list9": "SMART CONTRACT DEVELOPMENT",
-        "class": "date-content date-content4"
-    },
-    {
-        "month":"EARLY",
-        "year":"2023",
-        "title":"PARTNERSHIP DEVELOPMENT",
-        "list1": "ON-CHAIN INTEGRATION DEVELOPMENT",
-        "list2": "DEX LISTING",
-        "list3": "DESIGN & DEVELOPMENT OF NODE NFT MARKETPLACE",
-        "list4": "STAKE TO ACCESS MODELS",
-        "list5": "FARMING",
-        "class": "date-content date-content5"
-    },
-    {
-        "month":"MID",
-        "year":"2023",
-        "title":"MORE TO BE ANNOUNCED",
-        "class": "date-content date-content6"
-    }
+  {
+    "month": "",
+    "year": "2021",
+    "list1": "WIZZ STARTED TO PLAN TO INTRODUCE THE DEFI WIZZ ECOSYSTEM",
+    "list2": "STARTED THE IDEA DEVELOPMENT",
+    "list3": "DEAL WITH COMPLIANCE",
+    "class": "date-content date-content1"
+  },
+  {
+    "month": "Q2",
+    "year": "2022",
+    "list1": "HIRE EXPERTS IN THE INDUSTRY, START DEVELOPING FROM THE SCREECH",
+    "list2": "DEVELOPMENT OF NEW UI/UX",
+    "list3": "STARTED TO PROGRAMME AND DESIGN",
+    "class": "date-content date-content2"
+  },
+  {
+    "month": "Q4",
+    "year": "2022",
+    "list1": "LAUNCH OF THE WEBSITE",
+    "list2": "START TO SELL NODE",
+    "list3": "ONBOARD MARKETING TEAM",
+    "list4": "SOCIAL MEDIA MARKETING",
+    "list5": "MARKETING CAMPAIGN",
+    "class": "date-content date-content3"
+  },
+  {
+    "month": "Q1",
+    "year": "2023",
+    "list1": "WIZZ TOKEN WHITEPAPER",
+    "list2": "DEX LISTING",
+    "list3": "PARTNERSHIP DEVELOPMENT",
+    "list4": "POWER NODE NFT AIRDROPS",
+    "list5": "SMART CONTRACT DEVELOPMENT",
+    "class": "date-content date-content4"
+  },
+
+  {
+    "month": "Q2",
+    "year": "2023",
+    "list1": "PARTNERSHIP ANNOUNCEMENT",
+    "list2": "ON-CHAIN INTEGRATION DEVELOPMENT",
+    "list3": "CENTRALISE EXCHANGE LISTING",
+    "list4": "DESIGN & DEVELOPMENT OF NODE NFT MARKETPLACE",
+    "class": "date-content date-content5"
+  },
+  {
+    "month": "MID",
+    "year": "2023",
+    "list1": "MORE TO BE ANNOUNCED",
+    "class": "date-content date-content6"
+  }
 ]

@@ -68,11 +68,11 @@ const SecHeader = ({ HeaderLogo, HeaderLogo2, dropdownItem }) => {
                 Roadmap
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#blog">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li className="ml-3 nav">
               <div className="d-flex justify-content-center align-items-center">
                 <div className="bot-left1 rounded-pill">
