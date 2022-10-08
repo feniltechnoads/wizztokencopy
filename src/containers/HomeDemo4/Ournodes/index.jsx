@@ -24,8 +24,11 @@ const Ournodes = () => {
 
             // text="Wizz NFT Node"
           />
-          <div className="row align-items-center pt-3 pb-md-5 pb-0 " id="smartNode">
-            <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right">
+          <div
+            className="row align-items-center pt-3 pb-md-5 pb-0 "
+            id="smartNode"
+          >
+            <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12 no-padding-right">
               <div className="node-list">
                 <div className="who-we-contant">
                   <h4
@@ -104,15 +107,22 @@ const Ournodes = () => {
                 </div>
               </div>
             </div>
-            <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center">
-              <div className="image-box1 hover-switch margin-bottom text-center d-lg-block d-none">
+            <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+              {/* <div className="image-box1 hover-switch margin-bottom text-center d-lg-block d-none">
                 <img src={HomeDemo4LiteNode} alt="" className="greyscale img-fluid" />
                 <img src={HomeDemo4LiteNode1} className=" w-0 img-fluid" alt=""  />
+              </div> */}
+              <div className="swap">
+                <img src={HomeDemo4LiteNode} alt="" />
+                <img src={HomeDemo4LiteNode1} alt=""  />
               </div>
             </div>
           </div>
-          <div className="row align-items-center pt-3 pb-md-5 pb-0 " id="powerNode">
-            <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right order-lg-2">
+          <div
+            className="row align-items-center pt-3 pb-md-5 pb-0 "
+            id="powerNode"
+          >
+            <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12 no-padding-right order-lg-2">
               <div className="node-list">
                 <div className="who-we-contant">
                   <h4
@@ -197,15 +207,22 @@ const Ournodes = () => {
                 </div>
               </div>
             </div>
-            <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center order-lg-1">
-              <div className=" image-box2 hover-switch margin-bottom d-lg-block d-none ">
+            <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center order-lg-1">
+              {/* <div className="image-box image-box2 hover-switch margin-bottom d-md-block d-none ">
                 <img src={HomeDemo4SmartNode} className="w-0" alt="" />
                 <img src={HomeDemo4SmartNode1} className="greyscale" alt="" />
+              </div> */}
+              <div className="swap">
+                <img src={HomeDemo4SmartNode} alt="" />
+                <img src={HomeDemo4SmartNode1} alt="" />
               </div>
             </div>
           </div>
-          <div className="row align-items-center pt-3 pb-md-5 pb-0 " id="masterNode">
-            <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right">
+          <div
+            className="row align-items-center pt-3 pb-md-5 pb-0 "
+            id="masterNode"
+          >
+            <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12 no-padding-right">
               <div className="node-list">
                 <div className="who-we-contant">
                   <h4
@@ -250,11 +267,15 @@ const Ournodes = () => {
                 </div>
               </div>
             </div>
-            <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12">
-              <div className=" image-box-3 hover-switch d-lg-block d-none">
+            <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+              <div className="swap">
+                <img src={HomeDemo4PowerNode} alt="" className="swap-me" />
+                <img src={HomeDemo4PowerNode1} alt="" />
+              </div>
+              {/* <div className="image-box image-box-3 hover-switch d-md-block d-none">
                 <img src={HomeDemo4PowerNode} className="w-0" alt="" />
                 <img src={HomeDemo4PowerNode1} className="greyscale" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

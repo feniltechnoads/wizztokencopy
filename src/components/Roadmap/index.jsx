@@ -3,7 +3,7 @@ import { VscCircleFilled } from "react-icons/vsc";
 
 const Roadmap = ({ data, ClassSpanTitle }) => {
   return (
-    <section className="roadmap section-padding-0-100" id="roadmap">
+    <section className="roadmap section-padding-0-100 mt-md-0 mt-5 " id="roadmap">
       <SectionHeading
         title="Our ICO Roadmap"
         // text="Our ICO Roadmap"

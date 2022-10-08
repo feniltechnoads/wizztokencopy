@@ -1934,8 +1934,6 @@ label {
   }
 }
 
-
-
 .service-img-wrapper .image-box .rings {
   position: absolute;
   top: -17%;
@@ -2014,10 +2012,10 @@ label {
     /* height: 45vh; */
     /* margin-top: 60px; */
   }
-    .service-img-wrapper .image-box img {
-      width: 38vw !important;
-      margin-top: 100px;
-    }
+  .service-img-wrapper .image-box img {
+    width: 38vw !important;
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 992) {
@@ -2125,8 +2123,8 @@ label {
     margin-top: 0px !important;
   }
 
-  .service-img-wrapper .image-box img{
-    width: 30vw ;
+  .service-img-wrapper .image-box img {
+    width: 30vw;
   }
 
   .section-padding-0-100 {
@@ -5825,4 +5823,98 @@ body.light-version {
 
 .ico-progress .current-progress {
   background-color: transparent !important;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translate(1px, 0px);
+  }
+  50% {
+    transform: translate(1px, 12px);
+  }
+  100% {
+    transform: translate(1px, 0px);
+  }
+}
+
+@-moz-keyframes up-down {
+  0% {
+    -moz-transform: translate(1px, 0px);
+  }
+  50% {
+    -moz-transform: translate(1px, 12px);
+  }
+  100% {
+    -moz-transform: translate(1px, 0px);
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translate(1px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(1px, 12px);
+  }
+  100% {
+    -webkit-transform: translate(1px, 0px);
+  }
+}
+
+@-o-keyframes up-down {
+  0% {
+    -o-transform: translate(1px, 0px);
+  }
+  50% {
+    -o-transform: translate(1px, 12px);
+  }
+  100% {
+    -o-transform: translate(1px, 0px);
+  }
+}
+
+@-ms-keyframes up-down {
+  0% {
+    -ms-transform: translate(1px, 0px);
+  }
+  50% {
+    -ms-transform: translate(1px, 12px);
+  }
+  100% {
+    -ms-transform: translate(1px, 0px);
+  }
+}
+
+.swap img:last-child {
+  display: none;
+}
+
+.swap:hover img:first-child {
+  display: none;
+}
+
+.swap:hover img:last-child {
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+}
+
+.swap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: up-down linear 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: up-down linear 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: up-down linear 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: up-down linear 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: up-down linear 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
 }
