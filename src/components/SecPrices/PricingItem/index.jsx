@@ -11,6 +11,8 @@ const PricingItem = ({ Node, Rewards, img, imgBlack }) => {
           <h4>{Node}</h4> 
           <div className="px-2 mb-4">{Rewards}</div>
         </div>
+
+        <div id="nftNode"></div>
       </div>
     );
 }

@@ -7,7 +7,7 @@ import {
   HomeDemo4SmartNode1,
   HomeDemo4PowerNode1,
 } from "../../../utils/allImgs";
-import {HiOutlinePlusCircle, HiOutlineMinusCircle} from "react-icons/hi"
+import { HiOutlinePlusCircle, HiOutlineMinusCircle } from "react-icons/hi";
 import SectionHeading from "../../../components/SectionHeading";
 
 const Ournodes = () => {
@@ -16,13 +16,15 @@ const Ournodes = () => {
 
   return (
     <>
+      {/* <div id="nftNode"> </div> */}
       <section className="node section-padding-0-100">
         <div className="container">
           <SectionHeading
             title="Wizz NFT Node"
+
             // text="Wizz NFT Node"
           />
-          <div className="row align-items-center pt-3 pb-5" id="smartNode">
+          <div className="row align-items-center pt-3 pb-md-5 pb-0 " id="smartNode">
             <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right">
               <div className="node-list">
                 <div className="who-we-contant">
@@ -61,10 +63,10 @@ const Ournodes = () => {
                         >
                           Smart Node Features
                           {open ? (
-                              <HiOutlineMinusCircle className="arrows upperArrow" />
-                            ) : (
-                              <HiOutlinePlusCircle className="arrows downArrow" />
-                            )}
+                            <HiOutlineMinusCircle className="arrows upperArrow" />
+                          ) : (
+                            <HiOutlinePlusCircle className="arrows downArrow" />
+                          )}
                         </h5>
                       </a>
                       <div
@@ -103,13 +105,13 @@ const Ournodes = () => {
               </div>
             </div>
             <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center">
-              <div className="image-box image-box1 hover-switch margin-bottom">
-                <img src={HomeDemo4LiteNode} alt="" className="greyscale" />
-                <img src={HomeDemo4LiteNode1} className=" w-0" alt="" />
+              <div className="image-box1 hover-switch margin-bottom text-center d-lg-block d-none">
+                <img src={HomeDemo4LiteNode} alt="" className="greyscale img-fluid" />
+                <img src={HomeDemo4LiteNode1} className=" w-0 img-fluid" alt=""  />
               </div>
             </div>
           </div>
-          <div className="row align-items-center pt-3 pb-5" id="powerNode">
+          <div className="row align-items-center pt-3 pb-md-5 pb-0 " id="powerNode">
             <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right order-lg-2">
               <div className="node-list">
                 <div className="who-we-contant">
@@ -127,7 +129,7 @@ const Ournodes = () => {
                   >
                     <li>Total Supply: 5.000 (Five thousand).</li>
                     <li>Price: Airdrop Only.</li>
-                    <li>Maximum Node: 10 (10) each account.</li>
+                    <li>Maximum supply (10- Ten)</li>
                     <li>
                       Specification: No specification or no setup to run as all
                       nodes run as NFT.
@@ -196,13 +198,13 @@ const Ournodes = () => {
               </div>
             </div>
             <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center order-lg-1">
-              <div className="image-box image-box2 hover-switch margin-bottom">
+              <div className=" image-box2 hover-switch margin-bottom d-lg-block d-none ">
                 <img src={HomeDemo4SmartNode} className="w-0" alt="" />
                 <img src={HomeDemo4SmartNode1} className="greyscale" alt="" />
               </div>
             </div>
           </div>
-          <div className="row align-items-center pt-3 pb-5" id="masterNode">
+          <div className="row align-items-center pt-3 pb-md-5 pb-0 " id="masterNode">
             <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right">
               <div className="node-list">
                 <div className="who-we-contant">
@@ -248,8 +250,8 @@ const Ournodes = () => {
                 </div>
               </div>
             </div>
-            <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center">
-              <div className="image-box image-box-3 hover-switch">
+            <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12">
+              <div className=" image-box-3 hover-switch d-lg-block d-none">
                 <img src={HomeDemo4PowerNode} className="w-0" alt="" />
                 <img src={HomeDemo4PowerNode1} className="greyscale" alt="" />
               </div>

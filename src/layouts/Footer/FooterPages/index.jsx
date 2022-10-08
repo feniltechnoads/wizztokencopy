@@ -10,6 +10,7 @@ import TextFooter from "../../../data/data-layout/Footer/data-TextFooter.json";
 const FooterPages = ({ ClassSpanTitle = "" }) => {
   return (
     <footer
+    
       className="footer-area bg-img mt-5"
       style={{ backgroundImage: `url(${FooterPattern})` }}
     >
@@ -142,7 +143,7 @@ const FooterPages = ({ ClassSpanTitle = "" }) => {
                   >
                     {IcoName &&
                       IcoName.map((item, key) => (
-                        <a key={key} href={item.link} target="_blank">
+                        <a key={key} href={item.link} >
                           <i className={item.IcoName} aria-hidden="true" />
                         </a>
                       ))}
@@ -153,6 +154,7 @@ const FooterPages = ({ ClassSpanTitle = "" }) => {
               {TextFooter &&
                 TextFooter.map((item, key) => (
                   <div key={key} className={item.classBlock}>
+                    {console.log(item)}
                     <div className="contact_info_area d-sm-flex justify-content-between">
                       <div className={item.classInfo} data-wow-delay="0.3s">
                         <h5>{item.title}</h5>
